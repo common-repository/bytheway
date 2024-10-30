@@ -1,0 +1,53 @@
+/* ----------------------------------------------------
+ * Annotation Content
+ ---------------------------------------------------- */
+.btw-content {
+	color: #3f3f3f;
+}
+
+
+/* ----------------------------------------------------
+ * Button
+ ---------------------------------------------------- */
+.btw-button {
+	cursor: pointer;
+	font-family: monospace;
+	padding: 0 4px;
+	display:inline;
+}
+
+.btw-button-expanded {
+	color: #3f3f3f;
+	border: 1px solid #444;
+	background: #eee;
+}
+.btw-button-collapsed {
+	color: #3f3f3f;
+	border: 1px solid #444;
+	background: #eee;
+}
+.btw-button-expanded:hover,  .btw-button-collapsed:hover {
+	background: #3f3f3f;
+	color: #eee;
+	border: 1px solid #3f3f3f;
+}
+
+/* Two examples for user-defined classes */
+.mybutton {
+	color: #88C34B;
+	border: 1px solid #88C34B;
+	background: #fff;
+}
+.mybutton:hover {
+	color: #fff;
+	background: #88C34B;
+	border: 1px solid #88C34B;
+}
+.myannotation {
+	color: #88C34B;
+	font-style: italic;
+}
+
+.btw-quietmode, .btw-chattymode, .btw-resetmode {
+	cursor: pointer;
+}
